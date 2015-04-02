@@ -5,7 +5,7 @@ scope: source.js
 settings:
   bracketIndentNextLinePattern: >-
     (?x)
-      ^ \\s* \\b(if|while|else)\\b [^;]* $
-      | ^ \\s* \\b(for)\\b .* $
-  decreaseIndentPattern: ^(.*\*/)?\s*\}.*$
+      ^ \s* \b(if|while|else)\b [^;]* $
+      | ^ \s* \b(for)\b .* $
+  decreaseIndentPattern: ^(.*\*/)?\s*[}].*$
   increaseIndentPattern: ^.*\{[^}"']*$
